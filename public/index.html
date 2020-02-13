@@ -208,9 +208,10 @@ limitations under the License.
         Fingerprint: "SasSakghghfgrfaQ#REsdasdfasf2#!dsada932923813"
         });
         
-        firebase.analytics().logEvent('Apertura', {
+        firebase.analytics().logEvent('apertura', {
           content_type: 'log',
-          content_id: uid          
+          content_id: uid,
+          value: uid
         });
 
       } else {
